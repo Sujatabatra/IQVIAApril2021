@@ -10,5 +10,7 @@ public interface EmployeeDao {
 	boolean insertRecord(Employee employee);
 	boolean deleteRecord(int empId);
 	
+	Employee searchById(int eid);
+	
 	
 }

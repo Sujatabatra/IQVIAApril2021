@@ -23,4 +23,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return employeeDao.deleteRecord(empId);
 	}
 
+	public Employee searchEmployeeById(int eid) {
+		return employeeDao.searchById(eid);
+	}
+
 }
